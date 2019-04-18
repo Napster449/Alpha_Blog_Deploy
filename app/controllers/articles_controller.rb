@@ -39,6 +39,11 @@ def update
   end
 
 end
+def index
+
+@article = Article.all
+
+end
 private
 def article_params
 
